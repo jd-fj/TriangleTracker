@@ -18,6 +18,7 @@ Equilateral | (2, 2, 2) | is Equilateral
 Isosceles: Exactly two sides are equal. side1 == side2 || side2 == side3 || side1 == side3
 
 UI: Build out
+Create constructor for new Triangle
 
 User prompted to enter 3 separate lengths
 
