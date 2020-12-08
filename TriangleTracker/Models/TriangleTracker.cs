@@ -4,9 +4,9 @@ namespace Shape
 {
   public class Triangle
   {
-    public int Side1;
-    public int Side2;
-    public int Side3;
+    public int Side1 {get; set;}
+    public int Side2 {get; set;}
+    public int Side3 {get; set;}
 
     public Triangle(int side1, int side2, int side3)
     {
@@ -44,6 +44,7 @@ namespace Shape
       int side3 = int.Parse(Console.ReadLine());
 
       Triangle triangle1 = new Triangle(side1, side2, side3);
+
       
       if (triangle1.IsTriangle(triangle1.Side1, triangle1.Side2, triangle1.Side3) == true)
       {
